@@ -1,0 +1,86 @@
+/*.manny{
+    position:absolute;
+    margin: 9px;
+    padding: 9px;
+    top: 0;
+    left: 0;
+    font-family: 'Inspiration', cursive;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    font-variant: bold;
+}*/
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/src/wallpapersden.com_macos-12-monterey-digital_2560x1440.jpg);
+    background-repeat: no-repeat;
+    background-size: 100;
+}
+.text{
+    font-size: 35px;
+    color: #fff;
+    position: absolute;
+    top: 8%;
+    font-family: 'Press Start 2P', cursive;
+    background-image: linear-gradient(90deg,#9796f0,#fbc7d4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.manny a{
+    text-decoration: none;
+}
+
+nav{
+justify-content:flex-end;
+align-items:flex-end;
+}
+ul{
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    font-variant: bold;
+    
+}
+ul li a{
+    text-decoration: none;
+}
+ul li{
+    list-style-type: none;
+    margin-right: 10px;
+    padding-right: 10px;
+    display: inline-block;
+    position:relative;   
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+img{
+    position: relative;
+    justify-content:center;
+    align-items:center;
+    top: 20%;
+}
+
+.dev{
+    position: absolute;
+}
+@media only screen and (max-width: 600px) {
+    .dev{
+        position: absolute;
+        top:200px;
+    }
+    .manny{
+        font-size:  30px;
+    }
+    
+}
+@media only screen and (min-width:601px) {
+    .dev{
+        max-width: 80%;
+        max-height: 80%;
+        
+    }
+}
+
